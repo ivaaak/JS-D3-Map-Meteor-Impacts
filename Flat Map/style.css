@@ -1,0 +1,53 @@
+body {
+  min-height: 100vh;
+  background: hsl(215, 40%, 20%);
+  /* center the viz in the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.title{
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top:-6%;
+  color:whitesmoke;
+  font-family: Roboto, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#chart {
+  position: fixed;
+  top: 10%;
+  left: 0%;
+  width: 100vw;
+  height: 100vw;
+  margin-top: 300px;
+}
+#chart svg { /*this is the container for the map*/
+  background: hsl(215, 40%, 40%); /*water*/
+  border: 1px solid rgba(150, 150, 150, 0.25);
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  width: 60vw;
+  height: 50vw;
+  margin: 0px auto;
+}
+
+
+
+.tooltip {
+
+  font-family: Roboto, sans-serif;
+  color: #fbfbfb;
+  font-size: 22px;
+  margin-top: 700px;
+}
+
+.dataPoint:hover {
+  cursor: pointer;
+}

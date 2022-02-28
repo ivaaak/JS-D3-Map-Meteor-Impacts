@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background: hsl(215, 40%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viz {
+  position: fixed;
+  max-width: 900px;
+  width: 90vw;
+  top:10%;
+  cursor: grab;
+}
+.viz:active {
+  cursor: grabbing;
+}
+
+.title{
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top:0%;
+  color:whitesmoke;
+  font-family: Roboto, sans-serif;
+  font-size: 60px;
+}
