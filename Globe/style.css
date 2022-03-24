@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .viz {
   position: fixed;
   max-width: 900px;
